@@ -1,0 +1,9 @@
+const { Network, Alchemy } = require('alchemy-sdk');
+
+// Optional Config object, but defaults to demo api-key and eth-mainnet.
+const settings = {
+  apiKey: '<EXgZBFake5hBBJOcQ1Hojt7gGFVZU-1j>', // Replace with your Alchemy API Key.
+  network: Network.ETH_SEPOLIA, // Replace with your network.
+};
+
+const alchemy = new Alchemy(settings);
